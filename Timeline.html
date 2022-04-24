@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Instrumentisitc dedicated to educating people on instrumental music and showing apperication on the history of instrumental music in the film industry and the composers of 21st century">
+  <meta name="keywords" content="Composers, Film Music, Scores, Instrumental">
+  <meta name="author" content="Megan Sutherland">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<title>Instrumentistic Timeline</title>
+<link href="css.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="logo.ico"</>
+<a href="logo.ico" class="logo"></a>
+<div class="header">
+<img src= "sl.png" alt= "">
+<h1>INSTRUMENTISTIC</h1>
+<p>The true expression of sound</p>
+</div>
+
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D3D3D3;
+  font-family: arial;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #86A135;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  /* each timelime box go on the left and right */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  .right {
+  left: 0%;
+  }
+}
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="timeline.html">Timeline</a></li>
+  <li><a href="Composers.html">Composers</a></li>
+  <li><a href="blog.html">Blog</a></li>
+</ul>
+<br>
+<br>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>1908</h2>
+      <p>The first original film score composed by Camille Saint-Saëns for the French film - The Assassination of the Duke of Guise</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>1915</h2>
+      <p>American silent film The Birth of a Nation was  contemporise with a film score produced by Joseph Carl Breil</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1922</h2>
+      <p>The Darling Of New York was the last silent film produced before the transition to talking picture movies   </p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>1933</h2>
+      <p>The first completely original score for a movie with sound was composed by Max Steiner, for King Kong</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1940</h2>
+      <p>Film music was solely symphonic</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>1942</h2>
+      <p>Bernard Herrmann won Academy Award for Best Original Score for 'The Devil and Daniel Webster' and became the most influential composers during the 1940s period</p>
+        </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1950</h2>
+      <p>Jazz was implemented into mainstream genre films, in which required fewer musician and made the orchestration less expensive and more accessible for the film industry</p>
+    </div>
+  </div>
+    <div class="container right">
+    <div class="content">
+      <h2>1972</h2>
+      <p>John Williams began composing scores for films using alternative techniques</p>
+        </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>1980</h2>
+      <p>The synthesizer, invented in 1952, became a popular method to compose scores for an entire film with only needed one performer  (the synthesizer could generate the sounds of many instruments)</p>
+    </div>
+  </div>
+<div class="container right">
+    <div class="content">
+      <h2>1981</h2>
+      <p>MIDI controllers, an alternative music composition software was invented</p>
+        </div>
+  </div>
+</div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <div class="content">
+  <img src="sl.png" >
+
+    </div>
+      <div>
+       <h3>Contact Us</h3>
+	<p>© 2022 INSTRUMENTISTIC Inc</p>
+       <label>Email:</label>
+          <a href="mailto: insertemailhere@xyz.com?subject=Mail" target="_blank">Instrumentisitc@info.ie</a>
+    </div>
+
+</footer>
+
+
+
+
+</body>
+</html>

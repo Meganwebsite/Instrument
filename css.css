@@ -1,0 +1,155 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* body comes before header to work in stylesheet */
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+.active {
+  background-color: #86A135;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+  background-color: #000000;
+  color: white;
+}
+
+
+/* Header with black background keep*/
+.header {
+margin: 0;
+}
+/* to make header text anton/white keep */
+.header {
+  padding: 20px;
+  text-align: centre;
+  background: #000000;
+  text-align: center;
+  font-family: Anton;
+  color: white;
+}
+
+.header h1 {
+  font-size: 50px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button {
+  background-color: #86A135;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* logo in footer */
+.content img {
+ background-color: #000000;
+ height:50px;
+    width: 50px;
+    float:center;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+
